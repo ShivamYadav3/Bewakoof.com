@@ -1,6 +1,6 @@
 import React from "react";
-import { VscHeart } from "react-icons/vsc";
-import { IoBagOutline } from "react-icons/io5";
+import { VscHeart, VscSearch } from "react-icons/vsc";
+import { IoBagOutline, IoSearch } from "react-icons/io5";
 
 const Navbar = () => {
   return (
@@ -21,11 +21,17 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex gap-4 items-center">
-          <div>
-            <input
-              type="text"
-              className="border outline-none h-8 w-72 px-4 rounded-lg"
-            />
+          <div className="flex h-8 px-2 gap-3 bg-[#eee] border rounded-lg items-center">
+            <div>
+              <IoSearch />
+            </div>
+            <div>
+              <input
+                type="text"
+                className="outline-none h-8 w-72 bg-[#eee] text-xs"
+                placeholder="Search by product, category or collection"
+              />
+            </div>
           </div>
           <div className="w-0 border"></div>
           <div>
