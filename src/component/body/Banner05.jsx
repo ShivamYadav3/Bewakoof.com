@@ -7,31 +7,35 @@ const Banner05 = () => {
         TOO HOT TO BE MISSED
       </div>
       <div>
-        <div className="flex">
-          <div className="p-1 w-[680px]">
+        <div className="grid grid-cols-2">
+          <div className="p-1">
             <img
               src="https://images.bewakoof.com/uploads/grid/app/DESKTOP---MID-SIZE-BANNER---common-1708440531.png"
               alt=""
+              width="100%"
             />
           </div>
-          <div className="w-[680px]">
+          <div>
             <img
               src="https://images.bewakoof.com/uploads/grid/app/DESKTOP---MID-SIZE-BANNER-joggers-common-1708440533.jpg"
               alt=""
+              width="100%"
             />
           </div>
         </div>
-        <div className="flex">
-          <div className="w-[680px]">
+        <div className="grid grid-cols-2">
+          <div>
             <img
               src="https://images.bewakoof.com/uploads/grid/app/DESKTOP---MID-SIZE-BANNER-rm--1708440750.jpg"
               alt=""
+              width="100%"
             />
           </div>
-          <div className="w-[680px]">
+          <div>
             <img
               src="https://images.bewakoof.com/uploads/grid/app/Midsize-EOSS-Desktop-Banner-Homepage-Common-1708440533.jpg"
               alt=""
+              width="100%"
             />
           </div>
         </div>
