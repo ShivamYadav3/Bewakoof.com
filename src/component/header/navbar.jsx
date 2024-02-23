@@ -29,7 +29,7 @@ const Navbar = () => {
             <div>
               <input
                 type="text"
-                className="outline-none h-10 bg-[#eee] text-xs"
+                className="outline-none h-10 bg-[#eee] text-xs w-64"
                 placeholder="Search by product, category or collection"
               />
             </div>
