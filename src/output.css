@@ -560,6 +560,10 @@ video {
   z-index: 30;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .-mt-1 {
   margin-top: -0.25rem;
 }
@@ -620,20 +624,16 @@ video {
   width: 140px;
 }
 
-.w-\[680px\] {
-  width: 680px;
+.w-\[75\%\] {
+  width: 75%;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[100\%\] {
-  width: 100%;
+.w-\[85\%\] {
+  width: 85%;
 }
 
 .grid-cols-2 {
@@ -766,11 +766,6 @@ video {
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
 }
 
 .px-4 {

@@ -9,7 +9,7 @@
   }
   
   #fooTer {
-    width: 75%;
+    width: 85%;
     margin: auto;
   }
   
@@ -27,11 +27,7 @@
     width: 100%;
     margin: auto;
   }
-  
-  /* .footerGrid>div {
-      
-  } */
-  
+   
   .footerGrid h4 {
     color: #fdd835;
     font-size: 18px;

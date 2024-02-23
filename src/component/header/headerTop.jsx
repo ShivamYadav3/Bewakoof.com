@@ -3,8 +3,8 @@ import { BsPhone } from "react-icons/bs";
 
 const HeaderTop = () => {
   return (
-    <div className="px-24 h-7 flex justify-center items-center bg-[#eee] text-xs">
-      <div className="flex justify-between w-full">
+    <div className="h-7 flex justify-center items-center bg-[#eee] text-xs">
+      <div className="flex justify-between w-[85%] m-auto">
         <div className="flex gap-6">
           <div>Offers</div>
           <div>Fanbook</div>
